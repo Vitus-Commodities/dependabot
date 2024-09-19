@@ -3,13 +3,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"  
     schedule:
-      interval: "daily" 
+      interval: "daily"
     allow:
       - dependency-name: "hft-quant"
-        source:
-          type: "git"
-          url: "https://github.com/Vitus-Commodities/hft-quant.git"
       - dependency-name: "experiment"
-        source:
-          type: "git"
-          url: "https://github.com/Vitus-Commodities/dependabot_experiment.git"
