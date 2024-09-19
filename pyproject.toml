@@ -1,0 +1,6 @@
+[tool.pdm]
+version = "1.0"
+
+[tool.pdm.dependencies]
+hft-quant = { git = "https://github.com/Vitus-Commodities/hft-quant.git" }
+experiment = { git = "https://github.com/Vitus-Commodities/dependabot_experiment.git" }
