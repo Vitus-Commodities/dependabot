@@ -1,6 +1,9 @@
+[project]
+dependencies = [
+    "hft-quant @ git+https://${GH_TOKEN}:x-oauth-basic@github.com/Vitus-Commodities/hft-quant",
+    "experiment @  git+https://${GH_TOKEN}:x-oauth-basic@https://github.com/Vitus-Commodities/dependabot_experiment"
+]
 [tool.pdm]
-version = "1.0"
+distribution = true
 
-[tool.pdm.dependencies]
-hft-quant = { git = "https://github.com/Vitus-Commodities/hft-quant.git" }
-experiment = { git = "https://github.com/Vitus-Commodities/dependabot_experiment.git" }
+
